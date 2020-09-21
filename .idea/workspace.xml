@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bd7569fc-4358-411f-9496-b797abed0c0c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hngyn9Ba53HiB5nw4HSNugLzqD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.." />
+      <recent name="$USER_HOME$/PaymentClient" />
+      <recent name="$PROJECT_DIR$/../PaymentClient" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd7569fc-4358-411f-9496-b797abed0c0c" name="Default Changelist" comment="" />
+      <created>1600652528659</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600652528659</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="304" y="165" width="1079" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600667186930">
+      <screen x="0" y="25" width="1680" height="962" />
+    </state>
+    <state x="304" y="165" width="1079" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1680.962@0.25.1680.962" timestamp="1600667186930" />
+    <state x="341" y="142" key="SettingsEditor" timestamp="1600666895065">
+      <screen x="0" y="25" width="1680" height="962" />
+    </state>
+    <state x="341" y="142" key="SettingsEditor/0.25.1680.962@0.25.1680.962" timestamp="1600666895065" />
+    <state x="100" y="125" width="1480" height="762" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1600666472514">
+      <screen x="0" y="25" width="1680" height="962" />
+    </state>
+    <state x="100" y="125" width="1480" height="762" key="com.android.tools.idea.avdmanager.AvdListDialog/0.25.1680.962@0.25.1680.962" timestamp="1600666472514" />
+    <state x="505" y="236" width="670" height="676" key="search.everywhere.popup" timestamp="1600666692631">
+      <screen x="0" y="25" width="1680" height="962" />
+    </state>
+    <state x="505" y="236" width="670" height="676" key="search.everywhere.popup/0.25.1680.962@0.25.1680.962" timestamp="1600666692631" />
+  </component>
+</project>
