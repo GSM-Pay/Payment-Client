@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 .App-logo {
@@ -36,3 +38,25 @@
     transform: rotate(360deg);
   }
 }
+
+
+.Menu {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100vw;
+}
+
+.Menu > a {
+  text-decoration: none;
+  color: white;
+  background-color: lightslategray;
+  display: inline-block;
+  line-height: 64px;
+  height: 64px;
+  width: 50vw;
+  border: 1px solid gainsboro;
+  box-sizing: border-box;
+}
+
+

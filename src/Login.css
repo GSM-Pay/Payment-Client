@@ -1,0 +1,11 @@
+.Login {
+    width: 75vw;
+    background-color: gainsboro;
+    padding: 44px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+    box-sizing: border-box;
+    display: block;
+}

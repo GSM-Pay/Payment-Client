@@ -1,0 +1,22 @@
+.purchase {
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+}
+
+.time {
+    text-align: left;
+}
+
+.amount {
+    text-align: right;
+}
+
+li {
+    padding: 4px;
+}
+
+ul {
+    margin: 8px;
+    list-style-type: none;
+    padding: 0;
+}
