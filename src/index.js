@@ -9,7 +9,7 @@ import { setContext } from '@apollo/client/link/context';
 const cache = new InMemoryCache();
 
 const httpLink = new HttpLink({
-  uri: process.env.GSM_PAY_URL,
+  uri: process.env.REACT_APP_GSM_PAY_URL,
 });
 
 const authLink = setContext((_, { headers }) => {
