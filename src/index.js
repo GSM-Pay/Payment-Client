@@ -4,15 +4,27 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { ApolloClient, InMemoryCache, HttpLink, ApolloProvider } from '@apollo/client';
+import { setContext } from '@apollo/client/link/context';
 
 const cache = new InMemoryCache();
 
 const httpLink = new HttpLink({
-  uri: process.env.GSM_PAY_URL ?? 'http://127.0.0.1:5000/graphql',
+  uri: process.env.GSM_PAY_URL,
+});
+
+const authLink = setContext((_, { headers }) => {
+  const session = localStorage.getItem('session');
+
+  return {
+    headers: {
+      ...headers,
+      Authorization: session ?? '',
+    }
+  }
 });
 
 const client = new ApolloClient({
-  link: httpLink,
+  link: authLink.concat(httpLink),
   cache,
 });
 
