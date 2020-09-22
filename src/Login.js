@@ -16,7 +16,7 @@ const LOGIN = gql`
 function Login() {
   let history = useHistory();
 
-  if (localStorage.getItem('session')) history.replace('/purchase');
+  if (localStorage.getItem('session')) history.replace('/main');
 
   let id, pw;
   const [login] = useMutation(LOGIN);
@@ -39,19 +39,19 @@ function Login() {
 
           localStorage.setItem('session', session);
 
-          history.push('/purchase');
+          history.push('/main');
         }).catch(err => {
           console.log(err);
         });
       }}>
-        <input type="text" ref={node => {
+        <input type="text" placeholder="아이디" ref={node => {
           id = node;
         }} />
-        <br />
-        <input type="password" ref={node => {
+        <br/>
+        <input type="password" placeholder="비밀번호" ref={node => {
           pw = node;
         }} />
-        <br />
+        <br/>
         <button type="submit">로그인</button>
       </form>
     </div>

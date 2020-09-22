@@ -1,7 +1,7 @@
-import { BrowserRouter, useHistory } from 'react-router-dom';
-import { Route, Switch } from 'react-router';
+import { BrowserRouter, useHistory, Route, Switch } from 'react-router-dom';
 import Purchase from './Purchase';
 import PurchaseList from './PurchaseList';
+import Main from './Main';
 import React from 'react';
 
 function Home() {
@@ -13,14 +13,11 @@ function Home() {
     <>
       <BrowserRouter>
         <Switch>
+          <Route path="/main" exact component={Main} />
           <Route path="/purchase" exact component={Purchase} />
           <Route path="/list" exact component={PurchaseList} />
         </Switch>
       </BrowserRouter>
-      <div className="Menu">
-        <a href="/purchase">결제</a>
-        <a href="/list">내역</a>
-      </div>
     </>
   );
 }

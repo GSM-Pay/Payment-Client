@@ -1,0 +1,31 @@
+.Purchase {
+  padding: 5vh 3vw 0 3vw;
+  text-align: left;
+}
+
+.Leading {
+  color: tomato;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.SubmitButton {
+  position: fixed;
+  bottom: 3vw;
+  width: 94vw;
+  height: 56px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  background-color: tomato;
+}
+
+.Purchase input {
+  border-width: 0 0 1px 0;
+  border-bottom: 1px lightgrey solid;
+  border-radius: 0;
+  width: 92vw;
+  font-size: large;
+}
