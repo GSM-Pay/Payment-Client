@@ -8,11 +8,14 @@
 }
 
 .amount {
+    font-weight: bold;
+    font-size: large;
     text-align: right;
 }
 
 li {
-    padding: 4px;
+    padding: 8px;
+    margin-bottom: 8px;
 }
 
 ul {
